@@ -27,7 +27,7 @@ group :development, :test do
   gem "brakeman", require: false
   
   # RSpec
-  gem "rspec-rails", "~> 7.1"
+  gem "rspec-rails", "~> 8.0"
   gem "factory_bot_rails"
   gem "faker"
   
