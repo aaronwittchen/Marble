@@ -1,10 +1,31 @@
-/*
- * This is a manifest file that'll be compiled into application.css.
- *
- * With Propshaft, assets are served efficiently without preprocessing steps. You can still include
- * application-wide styles in this file, but keep in mind that CSS precedence will follow the standard
- * cascading order, meaning styles declared later in the document or manifest will override earlier ones,
- * depending on specificity.
- *
- * Consider organizing styles into separate files for maintainability.
- */
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #232529;
+    color: white;
+  }
+}
+
+@layer components {
+  .prose {
+    color: white;
+    max-width: none;
+  }
+
+  .prose h1 {
+    color: #b57cf0;
+    font-weight: bold;
+    font-size: 2.25rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+  }
+
+  .prose h2 {
+    color: #b57cf0;
+    font-weight: bold;
+    font-size: 1.875rem;
+    margin-bottom: 0.75rem;
+    margin-top: 1.5rem;
+  }
+}

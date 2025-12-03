@@ -376,6 +376,7 @@ DEPENDENCIES
   faker
   importmap-rails
   jbuilder
+  nokogiri (~> 1.16)
   pg (~> 1.5)
   pg_search
   propshaft

@@ -17,6 +17,7 @@ gem "bootsnap", require: false
 # Markdown support (Obsidian-like)
 gem "redcarpet"
 gem "rouge"
+gem "nokogiri", "~> 1.16"
 
 # Search functionality
 gem "pg_search"
@@ -41,7 +42,7 @@ group :development do
   gem "web-console"
   gem "annotate"
   gem "bullet"
-endccccc
+end
 
 group :test do
   gem "capybara"
